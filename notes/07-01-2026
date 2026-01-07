@@ -1,0 +1,23 @@
+# 2026-01-07 — QE learning log
+
+## What I did
+- Installed VESTA
+- Ran first SCF for sample data
+    - mpirun -np 4 pw.x < scf.in > scf.out
+    - ibrav = 4 ; nat = 2 ; k-points = 12×12×1 (19 irreducible)
+- SCF converged in 25 iterations 
+- Fermi energy = -0.4057 eV (reference-dependent)
+- Configured shared file linux-windows for proper data transfer and analysis
+
+## What I learned
+- Iterative property of QE's algorithm and general methodology
+- QE data output format and basic interpretation
+- SCF stability and convergence depend strongly on k-point sampling quality
+
+## Problems
+- XCrySDen fails in VM (OpenGL issue)
+
+## Next
+- Export .xsf and visualize in VESTA
+- Test ecutwfc convergence
+- Develop independent criteria for dataset reliability beyond academic references
