@@ -1,0 +1,48 @@
+# 2026-01-10 — QE research log
+
+## What I did
+- Data analysis and post-processing using `pp.x`:
+    ```text
+    &INPUTPP
+    prefix = 'gr'
+    outdir = '../tmp/'
+    plot_num = 0
+    /
+    &PLOT
+    iflag = 3
+    output_format = 5
+    fileout = 'graphene.xsf'
+    /
+
+- pp.x < pp.in > pp.out (data cleaning to .xsf format)
+
+- VESTA visualization:
+
+    ![Graphene crystal structure visualization showing hexagonal lattice with two carbon atoms in unit cell, lattice parameters a=b=2.46 Angstroms, c=10 Angstroms, 120 degree angle, displaying 24x24x96 dimensions with P1 space group symmetry and 3248 surface polygons](10-01-2026.png)
+
+- VESTA confirms:
+  - Hexagonal lattice (a=b=2.462 Å, γ=120°)
+  - Two-atom primitive cell
+  - Vacuum along c = 10 Å
+
+- Documentation may be found in (10-01-2026.xsf)
+
+## What I learned
+- DFT theory (Γ–K–M, Kohn–Sham, Pseudopotentials)
+- Conceptual distinction between SCF and NSCF calculations in plane-wave DFT
+- Linux nano command
+- QE-based data configuration and handling (tmp, .save, outdir, prefix)
+
+- The SCF charge density visualization confirms the expected sp² covalent bonding   in graphene, with electron density localized between nearest carbon atoms and a planar hexagonal lattice.
+
+>SCF defines physics.
+>NSCF explores it.
+>ecutwfc describes how well approximated it is.
+
+## Problems
+- N/A
+
+## Next
+- Perform NSCF calculation for graphene
+- Converge k-point sampling and ecutwfc
+- Compute band structure and DOS along Γ–K–M

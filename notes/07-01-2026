@@ -2,7 +2,7 @@
 
 ## What I did
 - Installed VESTA
-- Ran first SCF for sample data
+- Ran first SCF for sample data of graphene
     - mpirun -np 4 pw.x < scf.in > scf.out
     - ibrav = 4 ; nat = 2 ; k-points = 12×12×1 (19 irreducible)
 - SCF converged in 25 iterations 
