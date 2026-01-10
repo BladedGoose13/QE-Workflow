@@ -17,8 +17,8 @@
 - pp.x < pp.in > pp.out (data cleaning to .xsf format)
 
 - VESTA visualization:
-
-    ![Graphene crystal structure visualization showing hexagonal lattice with two carbon atoms in unit cell, lattice parameters a=b=2.46 Angstroms, c=10 Angstroms, 120 degree angle, displaying 24x24x96 dimensions with P1 space group symmetry and 3248 surface polygons](10-01-2026.png)
+    
+    Graphene crystal structure visualization showing hexagonal lattice with two carbon atoms in unit cell, lattice parameters a=b=2.46 Angstroms, c=10 Angstroms, 120 degree angle, displaying 24x24x96 dimensions with P1 space group symmetry and 3248 surface polygons (10-01-2026.png)
 
 - VESTA confirms:
   - Hexagonal lattice (a=b=2.462 Å, γ=120°)
