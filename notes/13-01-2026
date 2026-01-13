@@ -1,0 +1,56 @@
+# 2026-01-13 — QE research log
+
+## What I did
+- Ran relax calculations for atomic position optimization using BFGS algorithm, fixed lattice parameters
+
+    - Convergence achieved in 3 iterations
+    - Total energy = -23.90991322 Ry
+    - BFGS converged in 8 SCF cycles and 7 BFGS steps
+    - ATOMIC_POSITIONS (crystal)
+
+        C 0.3333333330        0.6666666660        0.5000000000    0   0   0
+
+        C 0.6666666660        0.3333333330        0.4999978027
+
+- Ran vc-relax calculations (cell and atomic degrees of freedom) using BFGS algorithm
+
+    - Convergence achieved in 8 iterations
+    - Total energy = -23.90996895 Ry
+    - BFGS converged in 5 SCF cycles and 4 BFGS steps
+    - New unit-cell volume = 532.19100 a.u.^3 (78.86257 Ang^3) density = 0.50580 g/cm^3
+    - CELL_PARAMETERS (alat=  4.72431531)
+
+        0.985563265  -0.000000000   0.000000000
+
+        -0.492781633   0.853522825   0.000000000
+
+        0.000000000   0.000000000   6.000000000
+
+    - ATOMIC_POSITIONS (crystal)
+
+        C 0.3333333330        0.6666666660        0.5000000000
+
+        C 0.6666666660        0.3333333330        0.5000000000
+
+
+- Final SCF calculations
+
+    - Convergence achieved in 21 iterations
+    - Total energy = -23.90991938 Ry
+    - The Fermi energy is -1.6773 eV
+
+
+
+## What I learned
+- Relax calculations
+- BFGS algorithm
+- Low iteration needed for convergence due to graphene's highly symmetrical         properties, making the default data near ideal 
+- Atomic positions remain effectively planar after relaxation
+- The vc-relax calculations for optimized structure, confirms that graphene is already close to its equilibrium geometry, with minimal atomic displacements and small lattice corrections
+
+## Problems
+- N/A
+
+## Next
+- Converge k-point sampling and ecutwfc
+- Compute band structure and DOS along Γ–K–M

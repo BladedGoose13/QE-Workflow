@@ -3,7 +3,6 @@
 ## What I did
 - Data analysis and post-processing using `pp.x`:
 
-```text
 &INPUTPP
 prefix = 'gr'
 outdir = '../tmp/'
@@ -45,6 +44,7 @@ fileout = 'graphene.xsf'
 - N/A
 
 ## Next
+- Perform relax calculations 
 - Perform NSCF calculation for graphene
 - Converge k-point sampling and ecutwfc
 - Compute band structure and DOS along Γ–K–M
