@@ -15,3 +15,5 @@ This repository contains introductory DFT calculations using Quantum ESPRESSO as
 ## Notes
 This repository is part of my training in computational materials science and solid-state physics.
 All parameters are chosen for educational and methodological purposes.
+Currently analyzing graphene properties using DFT methodologies.
+
