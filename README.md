@@ -17,3 +17,8 @@ This repository is part of my training in computational materials science and so
 All parameters are chosen for educational and methodological purposes.
 Currently analyzing graphene properties using DFT methodologies.
 
+
+## References
+Methodology and input structures are guided by:
+Nguyen T. Hung, Ahmad R. T. Nugraha, Ritsuko Saito,
+*Quantum ESPRESSO Course for Solid-State Physics*.
