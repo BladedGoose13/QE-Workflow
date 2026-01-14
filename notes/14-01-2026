@@ -1,0 +1,28 @@
+# 2026-01-14 — QE research log
+
+## What I did
+- Ran ecut calculations for plane wave convergence
+
+    - Ecut converges at ~40 Ry, where the total energy stabilizes around −23.91025 Ry, indicating that past this threshold the plane-wave basis is sufficient for the Kohn–Sham description.
+
+    ![Ecut convergence](14-01-2026.png)
+
+- Ran k-point calculations for mesh density convergence in respect to total energy
+
+    - Calculations show that a 12×12×1 k-point mesh is sufficient, as further increases change the total energy by less than 10⁻⁴ Ry.
+
+    ![k-point convergence](14-01-2026_2.png)
+
+
+## What I learned
+- k-point mesh density
+- Introductory plane-wave physics 
+- Python usage within Linux environment for data analysis and visualization
+
+## Problems
+- Area of opportunity in Matplotlib knowledge for better plotting
+
+## Next
+- Final relax and SCF calculations
+- NSCF calculations
+- Compute band structure and DOS along Γ–K–M
