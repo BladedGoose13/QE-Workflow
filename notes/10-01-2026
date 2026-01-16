@@ -34,11 +34,7 @@ fileout = 'graphene.xsf'
 - Linux nano command
 - QE-based data configuration and handling (tmp, .save, outdir, prefix)
 
-- The SCF charge density visualization confirms the expected sp² covalent bonding in graphene, with electron density localized between nearest carbon atoms and a planar hexagonal lattice.
-
-> SCF defines physics.  
-> NSCF explores it.  
-> ecutwfc describes how well approximated it is.
+- The SCF charge density visualization confirms the expected electronic behavior and shows graphene's planar hexagonal lattice.
 
 ## Problems
 - N/A
