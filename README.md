@@ -1,7 +1,7 @@
 # Introduction – Quantum ESPRESSO
 
 This repository contains introductory DFT calculations using Quantum ESPRESSO as part of my undergraduate research training at Instituto Tecnológico y de Estudios Superiores de Monterrey
-Under the supervision of Dr. José Ángel Reyes Retana
+under the supervision of Dr. José Ángel Reyes Retana
 
 ## Workflow
 - SCF calculation
