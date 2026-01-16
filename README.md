@@ -1,6 +1,6 @@
 # Introduction – Quantum ESPRESSO
 
-This repository contains introductory DFT calculations using Quantum ESPRESSO as part of my undergraduate research training at Instituto Tecnológico y de Estudios Superiores de Monterrey
+This repository contains introductory DFT calculations using Quantum ESPRESSO as part of my undergraduate research training at Instituto Tecnológico y de Estudios Superiores de Monterrey,
 under the supervision of Dr. José Ángel Reyes Retana
 
 ## Workflow
@@ -11,12 +11,12 @@ under the supervision of Dr. José Ángel Reyes Retana
 ## Software
 - Quantum ESPRESSO
 - Linux (VirtualBox)
-- Python
+- Python (Data analysis and visualization)
 
 ## Notes
 This repository is part of my training in computational materials science and solid-state physics.
 All parameters are chosen for educational and methodological purposes.
-Currently analyzing graphene properties using DFT methodologies.
+Currently analyzing the electronic structure of graphene using DFT methodologies.
 
 
 ## References
