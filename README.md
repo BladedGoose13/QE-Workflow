@@ -20,7 +20,7 @@ Currently analyzing the electronic structure of graphene using DFT methodologies
 
 
 ## References
-Methodology and input structures are guided by:
+Methodology was based on the following textbook:
 Nguyen T. Hung, Ahmad R. T. Nugraha, Ritsuko Saito,
 *Quantum ESPRESSO Course for Solid-State Physics*.
 
