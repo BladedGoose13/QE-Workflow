@@ -1,0 +1,14 @@
+&CONTROL
+calculation = 'scf'
+pseudo_dir = '/QE-SSP/gr/psuedo/'
+outdir = '/tmp_Si/'
+prefix = 'Si'
+/
+&SYSTEM
+ibraiv = '2'
+/
+&ELECTRONS
+/
+ATOMIC SPECIES (alat)
+
+ATOMIC POSITIONS (alat)

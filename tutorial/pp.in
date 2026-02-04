@@ -1,0 +1,11 @@
+
+&INPUTPP
+  prefix = 'gr'
+  outdir = '../tmp/'
+  plot_num = 0
+/
+&PLOT
+  iflag = 3
+  output_format = 5
+  fileout = 'graphene.xsf'
+/

@@ -1,0 +1,20 @@
+# 2026-02-03 — QE research log
+
+## What I did
+- Ran Pseudopotential convergence tests 
+    US+GGA selected given the numerical stability between pseudopotentials and the vast documentation regarding its structural reliability in graphene-based systems. 
+
+## What I learned
+- Pseudopotential convergence tests
+- Pseudopotential database acquirement
+- Data handling of .out PP files
+
+## Problems
+- Extremely time consuming and not so efficient when done manually given my fully computational approach
+- Could benefit from writing a python automatization script (this was hell)
+- Overwhelming theoretical foundation needed for full understanding of plane-wave physics and PP applications. 
+
+## Next
+- Implement a Python automation script for analyzing QE outputs and extracting key parameters (lattice constants, energies, convergence metrics).
+- Perform DOS and visualization of band structure
+- Perform smearing calculations 
