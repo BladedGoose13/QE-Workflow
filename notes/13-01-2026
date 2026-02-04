@@ -44,7 +44,7 @@
 ## What I learned
 - Relax calculations
 - BFGS algorithm
-- Low iteration needed for convergence due to graphene's highly symmetrical         properties, making the default data near ideal 
+- Low iteration needed for convergence due to graphene's highly symmetrical properties, making the default data near ideal 
 - Atomic positions remain effectively planar after relaxation
 - The vc-relax calculations for optimized structure, confirms that graphene is already close to its equilibrium geometry, with minimal atomic displacements and small lattice corrections
 

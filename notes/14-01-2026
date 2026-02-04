@@ -3,7 +3,7 @@
 ## What I did
 - Ran ecut calculations for plane wave convergence
 
-    - Ecut converges at ~40 Ry, where the total energy stabilizes around −23.91025 Ry, indicating that past this threshold the plane-wave basis is sufficient for the Kohn–Sham description.
+    - Ecut converges at ~40 Ry, where the total energy stabilizes around −23.91025 Ry.
 
     ![Ecut convergence](14-01-2026.png)
 
