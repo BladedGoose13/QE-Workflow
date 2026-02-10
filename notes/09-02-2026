@@ -1,0 +1,19 @@
+# 2026-02-09 — QE research log
+
+## What I did
+- Ran scf calculations for smearing methods convergence
+
+## What I learned
+- Theoretical constraint concepts of DFT near fermi-level
+- Interpretation of smearing convergence data
+- When to use smearing (metals and small-gap semiconductors)
+
+## Problems
+- Complex theory behind smearing functions (Degauss, fractional occupance, etc)
+- Confusing interpretation of convergence in smearing
+- How to physically visualize smearing effects on electronic structure?
+- How to apply and interpret smearing convergence in large and organic molecules?
+
+## Next
+- Density of states and band structure visualization
+- Practice Matplotlib visualization
