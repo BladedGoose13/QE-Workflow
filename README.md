@@ -1,4 +1,4 @@
-# Electronic Structure of Silicon-Doped Graphene — DFT with Quantum ESPRESSO
+# Electronic Structure of Silicon-Doped Graphene - DFT with Quantum ESPRESSO
 
 This repository documents my undergraduate research training in computational materials science at Instituto Tecnológico y de Estudios Superiores de Monterrey, under the supervision of Dr. José Ángel Reyes Retana.
 
