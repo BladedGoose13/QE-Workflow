@@ -1,30 +1,74 @@
-# Introduction – Quantum ESPRESSO
+# Electronic Structure of Silicon-Doped Graphene — DFT with Quantum ESPRESSO
 
-This repository contains introductory DFT calculations using Quantum ESPRESSO as part of my undergraduate research training at Instituto Tecnológico y de Estudios Superiores de Monterrey,
-under the supervision of Dr. José Ángel Reyes Retana.
+This repository documents my undergraduate research training in computational materials science at Instituto Tecnológico y de Estudios Superiores de Monterrey, under the supervision of Dr. José Ángel Reyes Retana.
+
+The work progressed in two stages: first replicating known graphene band structure results to validate the computational setup, then extending to an original study of silicon doping effects via the Virtual Crystal Approximation (VCA). Results were presented as a poster at the Tec Science Summit 2026 (NextGen Scientists Program).
+
+---
+
+## Project Summary
+
+Density Functional Theory calculations were used to analyze how silicon doping modifies the electronic structure of graphene at varying concentrations (0%, 10%, 20% Si). The key finding is a progressive distortion of the Dirac cone and the emergence of a bandgap with increasing silicon content, suggesting a transition toward semiconducting behavior tunable by doping concentration.
+
+---
+## Scientific Poster
+[PDF](Silicon_Doped_Graphene.pdf)
+---
 
 ## Workflow
-- SCF calculation
-- NSCF for band structure
-- Bands and DOS post-processing
 
-## Software
-- Quantum ESPRESSO
-- Linux (VirtualBox)
-- Python (Data analysis and visualization)
+```
+1. Structural relaxation     →   vc-relax
+2. SCF calculation           →   pw.x
+3. NSCF for band structure   →   pw.x (nscf)
+4. Band structure            →   bands.x
+5. Density of States (DOS)   →   dos.x
+6. Projected DOS (PDOS)      →   projwfc.x
+7. Post-processing & plots   →   Python
+```
 
-## Notes
-This repository is part of my training in computational materials science and solid-state physics.
-All parameters are chosen for educational and methodological purposes.
-Currently analyzing the electronic structure of graphene using DFT methodologies.
+---
 
+## Computational Parameters
+
+| Parameter | Value |
+|---|---|
+| Code | Quantum ESPRESSO |
+| Exchange-correlation | PBE (GGA) |
+| Pseudopotentials | Ultrasoft |
+| Kinetic energy cutoff | 40 Ry |
+| k-point grid | 60 × 60 × 1 |
+| Smearing method | Tetrahedron |
+| Silicon doping model | VCA via `virtual_v2.x` |
+
+---
+
+## Systems Studied
+
+| System | Si concentration |
+|---|---|
+| Graphene | 0% (reference) |
+| C₁₈Si₀.₂ | 10% Si |
+| C₁₆Si₀.₄ | 20% Si |
+
+---
+
+## Software & Environment
+
+- **Quantum ESPRESSO** — DFT engine
+- **Linux** (VirtualBox) — simulation environment
+- **Python** — data analysis and visualization (NumPy, Matplotlib)
+
+---
 
 ## References
-Methodology and initial simulations are based on the following textbook:
-Nguyen T. Hung, Ahmad R. T. Nugraha, Ritsuko Saito,
-*Quantum ESPRESSO Course for Solid-State Physics*.
 
+- P. Giannozzi et al., *J. Phys.: Condens. Matter* **21**, 395502 (2009)
+- P. Giannozzi et al., *J. Phys.: Condens. Matter* **29**, 465901 (2017)
+- Nguyen T. Hung, Ahmad R. T. Nugraha, Ritsuko Saito, *Quantum ESPRESSO Course for Solid-State Physics*
+
+---
 
 ## Acknowledgments
-AI tools were used to assist in formatting, text polishing, scientific vocabulary enhancement, theoretical understanding. 
-All content was manually reviewed, edited, and verified by the author to ensure accuracy and originality.
+
+Developed under the supervision of Dr. José Ángel Reyes Retana (Tecnológico de Monterrey, Campus Monterrey). AI tools were used to assist in formatting, text polishing, and scientific vocabulary. All content was manually reviewed, edited, and verified by the author to ensure accuracy and originality.
