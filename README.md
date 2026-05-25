@@ -15,6 +15,7 @@ Density Functional Theory calculations were used to analyze how silicon doping m
 
 Gaussian filters were used to aid with polishing.
 [Graphene](Graphene graph.png)
+
 ---
 ## Scientific Poster
 [PDF](Silicon_Doped_Graphene.pdf)
