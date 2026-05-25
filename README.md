@@ -19,7 +19,9 @@ Gaussian filters were used to aid with visual polishing.
 
 ---
 ## Scientific Poster
+
 [PDF](Silicon_Doped_Graphene.pdf)
+
 ---
 
 ## Workflow
