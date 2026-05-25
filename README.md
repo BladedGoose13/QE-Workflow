@@ -12,6 +12,7 @@ Density Functional Theory calculations were used to analyze how silicon doping m
 
 ---
 ## Graphene figure at 0% silicon doping. (Reference)
+
 Gaussian filters were used to aid with polishing.
 [Graphene](Graphene graph.png)
 ---
