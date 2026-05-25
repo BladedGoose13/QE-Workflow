@@ -47,10 +47,17 @@ Density Functional Theory calculations were used to analyze how silicon doping m
 
 | System | Si concentration |
 |---|---|
-| Graphene | 0% (reference) |
-| C₁₈Si₀.₂ | 10% Si |
-| C₁₆Si₀.₄ | 20% Si |
-
+| Graphene | 0% Si (reference) |
+| C₁₉Si₀₁ | 5% Si |
+| C₁₈Si₀₂ | 10% Si |
+| C₁₇Si₀₃ | 15% Si |
+| C₁₆Si₀₄ | 20% Si |
+| C₁₅Si₀₅ | 25% Si |
+| C₁₄Si₀₆ | 30% Si |
+| C₁₃Si₀₇ | 35% Si |
+| C₁₂Si₀₈ | 40% Si |
+| C₁₁Si₀₉ | 45% Si |
+| C₁₀Si₁₀ | 50% Si |
 ---
 
 ## Software & Environment
