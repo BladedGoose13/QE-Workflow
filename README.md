@@ -8,7 +8,7 @@ The work progressed in two stages: first replicating known graphene band structu
 
 ## Project Summary
 
-Density Functional Theory calculations were used to analyze how silicon doping modifies the electronic structure of graphene at varying concentrations (0%, 10%, 20% Si). The key finding is a progressive distortion of the Dirac cone and the emergence of a bandgap with increasing silicon content, suggesting a transition toward semiconducting behavior tunable by doping concentration.
+Density Functional Theory calculations were used to analyze how silicon doping modifies the electronic structure of graphene at varying concentrations (0%, 10%, 20% Si, ..., 50% Si). The key finding is a progressive distortion of the Dirac cone and the emergence of a bandgap with increasing silicon content, suggesting a transition toward semiconducting behavior tunable by doping concentration.
 
 ---
 ## Scientific Poster
