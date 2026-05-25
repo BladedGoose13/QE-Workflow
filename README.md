@@ -11,10 +11,11 @@ The work progressed in two stages: first replicating known graphene band structu
 Density Functional Theory calculations were used to analyze how silicon doping modifies the electronic structure of graphene at varying concentrations (0%, 5%, 10% Si, ..., 50% Si). The key finding is a progressive distortion of the Dirac cone and the emergence of a bandgap with increasing silicon content, suggesting a transition toward semiconducting behavior tunable by doping concentration.
 
 ---
-## Graphene figure at 0% silicon doping. (Reference)
+## Graphene figure at 0% silicon doping (Reference)
 
-Gaussian filters were used to aid with polishing.
-[Graphene](Graphene graph.png)
+Gaussian filters were used to aid with visual polishing.
+
+![Graphene at 0% silicon doping](Graphene%20graph.png)
 
 ---
 ## Scientific Poster
